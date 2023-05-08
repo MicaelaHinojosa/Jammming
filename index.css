@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+ * {
+    margin: 0;
+ }
+ 
+ body {
+    background-image: url('./resources/aleksandr-popov-JhYnL-BiP18-unsplash.jpg');
+    background-size:cover;
+}
+
+.flex-columns{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.header {
+    background-color: #1a0a52;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem 0rem 1rem 0rem;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    font-family: 'Poppins';
+}
+
+.search {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .5rem;
+}
+
+.search input {
+    background-color: rgb(94, 48, 235, .5);
+    border: .1rem solid #782CF6;
+    border-radius: 2rem;
+    height: 2rem;
+    width: 20rem;
+    margin: 1rem;  
+    font-size: 1rem; 
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.search button {
+    color: white;
+    background-color: #782CF6;
+    height: 2rem;
+    width: 10rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: .95rem;
+    cursor: pointer;
+    font-family: 'Poppins';
+    letter-spacing: .4px;
+}
+
+.search button:hover {
+    background-color: rgb(120, 44, 246, .9);
+}
+
+
+.results-column h2 {
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Roboto';
+    font-weight: lighter;
+    border-bottom: .09rem solid rgb(128,128,128, .2);
+    margin: 1.2rem
+}
+
+.results-column {
+    height: 40rem;
+    width: 25rem;
+    border: .5rem solid #782CF6;
+    border-radius: 2.5rem;
+    background-color: rgb(17,5,59,.85);
+    margin-right: 10rem;
+}
+
+.playlist-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40rem;
+    width: 20rem;
+    border: .5rem solid #7A219E;
+    border-radius: 2.5rem;
+    background-color: rgb(17,5,59,.85);
+    
+}
+
+.playlist-column input {
+    background-color: rgb(94, 48, 235, 0);
+    border: none;
+    border-bottom: .09rem solid rgb(128,128,128, .2);
+    height: 2rem;
+    width: 90%;
+    margin: 1rem; 
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Roboto';
+}
+
+.playlist-column input:focus{
+    outline: none;
+}
+
+
+.playlist-column button {
+    color: white;
+    background-color: #782CF6;
+    height: 2rem;
+    width: 10rem;
+    border-radius: 1rem;
+    border: none;
+    font-family: 'Poppins';
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.playlist-column button:hover {
+    background-color: rgb(120, 44, 246, .9);
+    
+}
